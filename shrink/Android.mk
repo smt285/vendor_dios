@@ -27,7 +27,6 @@ LOCAL_OVERRIDES_PACKAGES := \
     LockClock \
     DeskClock \
     EasterEgg \
-    Updater \
     WallpaperPicker \
     WeatherProvider \
     Exchange2 \
