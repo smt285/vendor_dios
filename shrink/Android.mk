@@ -8,7 +8,6 @@ LOCAL_CERTIFICATE := shared
 LOCAL_PACKAGE_NAME := ReduceROM
 # It overrrides packages to avoid their addition to the ROM
 LOCAL_OVERRIDES_PACKAGES := \
-    Browser \
     Calculator \
     Calendar \
     Camera2 \
@@ -43,23 +42,18 @@ LOCAL_OVERRIDES_PACKAGES := \
     ssh-keygen \
     start-ssh \
     Profiles \
-    WeatherManagerService \
     libemoji \
     LiveWallpapersPicker \
     PhotoTable \
     Terminal \
     procmem \
-    procrank
-
-#	Launcher3 LatinIME Settings \
-#	Bluetooth \
-#	PicoTts \
-#	DeskClock Contacts Settings StorageManager TelephonyProvider \
-#	Trebuchet LineageSetupWizard \
-#	CMSettingsProvider \
-#
-#	Bluetooth BluetoothMidiService \
-#	CertInstaller messaging PicoTts \
-#	CtsShimPrebuilt DeskClock HTMLViewer UserDictionaryProvider webview CarrierConfig CellBroadcastReceiver CMAudioService CMSettingsProvider Contacts ContactsProvider LineageSetupWizar Settings MediaProvider Shell StorageManager Telecom TelephonyProvider TeleService Dialer Trebuchet
+    procrank \
+    eSpeakTTS \
+    Camera \
+    Notes \
+    Mail \
+    LibreOfficeViewer \
+    eDrive \
+    Tasks
 
 include $(BUILD_PACKAGE)
