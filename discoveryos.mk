@@ -11,7 +11,7 @@ DEVICE_PACKAGE_OVERLAYS += vendor/dios/overlay
 # discoverOS special handlings and settings
 # grab the overwrite vars from: build/tools/buildinfo.sh
 PRODUCT_BUILD_PROP_OVERRIDES += \
-	BUILD_DISPLAY_ID="discoveryOS-14.1.0" \
+	BUILD_DISPLAY_ID="discoveryOS-2.0" \
 	TARGET_BUILD_TYPE="user" \
 	TARGET_BUILD_FLAVOR="discoveryOS"
 
