@@ -18,15 +18,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # reduce ROM, increase speed
 PRODUCT_PACKAGES += ReduceROM
 
-# F-droid
-WITH_FDROID := true
-FDROID_EXTRA_REPOS := true
-PRODUCT_PACKAGES += \
-    F-Droid \
-    FDroidPrivilegedExtension \
-    additional_repos.xml \
-    AuroraStore
-
 # Set device ownership for the navigation app
 #PRODUCT_COPY_FILES += \
 #    device/samsung/gtexslte/device_owner.xml:data/system/device_owner.xml \
